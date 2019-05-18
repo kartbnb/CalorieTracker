@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_daily"
+            android:icon="@drawable/calorie"
+            android:title="My Daily Diet" />
+        <item
+            android:id="@+id/nav_steps"
+            android:icon="@drawable/step"
+            android:title="Steps" />
+        <item
+            android:id="@+id/nav_calorie"
+            android:icon="@drawable/consume"
+            android:title="Calorie Tracker" />
+
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/report"
+            android:title="Report" />
+
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/map"
+            android:title="Map" />
+    </group>
+
+
+</menu>
